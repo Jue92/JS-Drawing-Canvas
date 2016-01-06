@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Julian Anderson - Portfolio</title>
+		<!--Displays mobile version for mobiles // Tablet version for tablets // Desktop for desktop-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<!--Displays mobile version for mobiles // Tablet version for tablets // Desktop for desktop-->
+		<link href="css/bootstrap.min.css" rel = "stylesheet">
+		<link href="css/styles.css" rel = "stylesheet">
+		<link href="css/bootstrap.css" rel = "stylesheet">
+		<script src="js/myscript.js"></script>
+		<link href="css/canvasCSS.css" rel = "stylesheet">
+		
+	</head>
+	
+	<body onload="canvasLoader()" class="body">		
+		<div class = "container">
+			<div class = "page-header">
+				<h3>Demo: Drawing Tool (HTML + JavaScript)</h3>
+			</div>
+			<section id ="canvasSection">
+				<canvas id="canvasObject" width="700" height="500"></canvas>
+			</section>
+				
+			<section id ="canvasButtons">
+				<button type = "button" id ="black" onclick="color(this)"> Black </button>
+				<button type = "button" id ="blue" onclick="color(this)"> Blue </button>
+				<button type = "button" id ="red" onclick="color(this)"> Red </button>
+				<button type = "button" id ="green" onclick="color(this)"> Green </button>
+				<button type = "button" id ="orange" onclick="color(this)"> Orange </button>
+				<button type = "button" id ="yellow" onclick="color(this)"> Yellow </button>
+				<button type = "button" id ="white" onclick="color(this)"> Eraser </button>
+				<button type = "button" id = "clr" onclick="erase()"> Clear</button>
+				<button type = "button" id ="saveButton" onclick="saveCanvas()"> Save </button>
+				<button type = "button" id ="loadButton" onclick="loadCanvas()"> Load </button>
+			</section>						
+		</div>
+
+	</body>	
+	
+</html>

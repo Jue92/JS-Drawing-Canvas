@@ -1,0 +1,15 @@
+/* CANVAS CSS */
+#canvasObject {
+	border:1px solid #FFFFFF;
+	margin-top: 2%;
+	background-color: #FFFFFF;
+}
+#canvasSection {
+	text-align: center;
+}
+
+#canvasButtons {
+	text-align: center;
+}
+
+/* END OF CANVAS */
